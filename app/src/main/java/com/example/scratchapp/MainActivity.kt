@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        var todolist1= mutableListOf(
+        val todolist1= mutableListOf(
             Todo("make breakfast",false),
             Todo("poop time",false),
             Todo("hehehehe", false),
